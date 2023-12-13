@@ -13,6 +13,12 @@ package com.alg.exercise.new20231009hot100.greed;
  */
 public class MaxProfit_01 {
 
+    public static void main(String[] args) {
+        int[] a  ={1,3};
+        System.err.println(maxProfit(a));
+    }
+
+
     public static int maxProfit(int[] prices) {
         int len = prices.length;
         // [k][2] ,k 表示天数，2有 0，1 两种值 表示 不持有，持有 股票的状态
