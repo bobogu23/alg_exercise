@@ -12,6 +12,7 @@ public class ListNode {
         val = x;
         next = null;
     }
+    public  ListNode() {}
 
     public void print(){
         System.err.print(val);
